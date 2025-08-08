@@ -4,7 +4,7 @@ A comprehensive tourism marketplace website for Bohol, Philippines, built with t
 
 ![Guide to Bohol](https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
 
-## 🌟 Features
+## Features
 
 ### For Travelers
 - **Browse Tours & Activities**: Discover amazing tours from Chocolate Hills to island hopping adventures
@@ -30,7 +30,7 @@ A comprehensive tourism marketplace website for Bohol, Philippines, built with t
 - **SEO Optimized**: Search engine friendly URLs and meta tags
 - **API-First Design**: RESTful API architecture for scalability
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React.js 18** with TypeScript for type safety
@@ -56,7 +56,7 @@ A comprehensive tourism marketplace website for Bohol, Philippines, built with t
 - **Git** for version control
 - **Environment Variables** for configuration management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 guidetobohol/
@@ -86,7 +86,7 @@ guidetobohol/
     └── server.js
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -98,7 +98,7 @@ guidetobohol/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/guide-to-bohol.git
+   git clone https://github.com/ampere07/GuidetoBohol.git
    cd guide-to-bohol
    ```
 
