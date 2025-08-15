@@ -47,6 +47,14 @@ const Header: React.FC = () => {
               Hotels & Resorts
             </Link>
             <Link
+              to="/car-rentals"
+              className={`text-gray-700 hover:text-blue-600 font-medium transition duration-200 ${
+                isActive('/car-rentals') ? 'text-blue-600' : ''
+              }`}
+            >
+              Car Rentals
+            </Link>
+            <Link
               to="/destinations"
               className={`text-gray-700 hover:text-blue-600 font-medium transition duration-200 ${
                 isActive('/destinations') ? 'text-blue-600' : ''
@@ -222,6 +230,13 @@ const Header: React.FC = () => {
                 onClick={closeMenu}
               >
                 Hotels & Resorts
+              </Link>
+              <Link
+                to="/car-rentals"
+                className="block py-2 text-gray-700 hover:text-blue-600 font-medium"
+                onClick={closeMenu}
+              >
+                Car Rentals
               </Link>
               <Link
                 to="/destinations"

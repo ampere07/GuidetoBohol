@@ -13,6 +13,7 @@ import Tours from './pages/Tours';
 import TourDetails from './pages/TourDetails';
 import Hotels from './pages/Hotels';
 import HotelDetails from './pages/HotelDetails';
+import CarRentals from './pages/CarRentals';
 import Destinations from './pages/Destinations';
 import TravelGuides from './pages/TravelGuides';
 import BookingConfirmation from './pages/BookingConfirmation';
@@ -40,6 +41,7 @@ function App(): JSX.Element {
                 <Route path="/tours/:id" element={<TourDetails />} />
                 <Route path="/hotels" element={<Hotels />} />
                 <Route path="/hotels/:id" element={<HotelDetails />} />
+                <Route path="/car-rentals" element={<CarRentals />} />
                 <Route path="/destinations" element={<Destinations />} />
                 <Route path="/travel-guides" element={<TravelGuides />} />
                 <Route path="/about" element={<About />} />
