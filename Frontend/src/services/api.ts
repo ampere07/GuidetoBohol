@@ -2,7 +2,7 @@ import axios from 'axios';
 import { ApiResponse, PaginatedResponse } from '../types';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-domain.com/api' 
+  ? 'https://guidetobohol.onrender.com/api' 
   : 'http://localhost:5000/api';
 
 // Create axios instance
