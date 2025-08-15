@@ -206,7 +206,7 @@ const CarRentals: React.FC = () => {
               >
                 <option value="all">All Prices</option>
                 <option value="budget">Budget (≤₱3,000/day)</option>
-                <option value="premium">Premium (>₱3,000/day)</option>
+                <option value="premium">Premium (&gt;₱3,000/day)</option>
               </select>
             </div>
           </div>
