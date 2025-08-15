@@ -9,7 +9,7 @@ const CustomerTestimonials: React.FC = () => {
       rating: 5,
       text: 'It was simply the best decision we ever made to set up our travel plans with Guide to Bohol. I highly recommend it especially because of their attention to details, high organization, professionalism, prompt responsiveness, and very friendly staff.',
       tour: 'Chocolate Hills & Tarsier Tour',
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80'
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const CustomerTestimonials: React.FC = () => {
       rating: 5,
       text: 'Right from the start, the staff at Guide to Bohol provided a great service. Everything was perfect. The organization went smoothly. A big compliment especially to the team with whom I wrote many emails. Highly recommend this agency!',
       tour: 'Panglao Island Hopping',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80'
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const CustomerTestimonials: React.FC = () => {
       rating: 5,
       text: 'What an incredible experience! Very well served by Guide to Bohol! They planned a personalized itinerary just as we wished. They took very good care of us and made sure that everything went well. Thank you for making our trip one to remember!',
       tour: 'Bohol Countryside Tour',
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80'
+      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80'
     }
   ];
 

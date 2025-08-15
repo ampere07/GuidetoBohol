@@ -6,7 +6,7 @@ const FeaturedTours: React.FC = () => {
     {
       id: '1',
       title: 'Chocolate Hills + Tarsier Sanctuary Day Tour',
-      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       price: 2500,
       duration: '8 hours',
       rating: 4.8,
@@ -17,7 +17,7 @@ const FeaturedTours: React.FC = () => {
     {
       id: '2',
       title: 'Panglao Island Hopping Adventure',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       price: 1800,
       duration: '6 hours',
       rating: 4.9,
@@ -28,7 +28,7 @@ const FeaturedTours: React.FC = () => {
     {
       id: '3',
       title: 'Loboc River Cruise with Lunch',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       price: 1200,
       duration: '4 hours',
       rating: 4.7,
@@ -39,7 +39,7 @@ const FeaturedTours: React.FC = () => {
     {
       id: '4',
       title: 'Anda Hidden Beaches Tour',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       price: 2200,
       duration: '10 hours',
       rating: 4.6,

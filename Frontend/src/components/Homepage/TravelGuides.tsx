@@ -7,7 +7,7 @@ const TravelGuides: React.FC = () => {
       id: 'best-time-to-visit',
       title: 'Best Travel Guide to Bohol: Everything You Need to Know',
       excerpt: 'Find everything you need to know about Bohol. Learn about the best time to visit, where to go, sample itinerary and travel tips.',
-      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '8 min read',
       category: 'Planning'
     },
@@ -15,7 +15,7 @@ const TravelGuides: React.FC = () => {
       id: 'attractions-guide',
       title: 'Read this guide and find out the best attractions to visit in Bohol',
       excerpt: 'Discover the top-rated attractions, hidden gems, and must-see destinations across the beautiful island of Bohol.',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '12 min read',
       category: 'Attractions'
     },
@@ -23,7 +23,7 @@ const TravelGuides: React.FC = () => {
       id: 'when-to-visit',
       title: 'Plan the best time to visit Bohol with this guide!',
       excerpt: 'Learn about weather patterns, festival seasons, and the optimal times for different activities in Bohol.',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '6 min read',
       category: 'Weather'
     },
@@ -31,7 +31,7 @@ const TravelGuides: React.FC = () => {
       id: 'itinerary-guide',
       title: 'Discover the ultimate guide to planning your travel itinerary in Bohol',
       excerpt: 'Explore the best 3-day, 5-day, 1-week, and 2-week itineraries for an unforgettable Bohol experience.',
-      image: 'https://images.unsplash.com/photo-1558618644-fbd1e7647dad?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1558618644-fbd1e7647dad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '15 min read',
       category: 'Itinerary'
     },
@@ -39,7 +39,7 @@ const TravelGuides: React.FC = () => {
       id: 'beaches-guide',
       title: 'Discover the best beaches in Bohol with this comprehensive guide!',
       excerpt: 'Learn about Panglao\'s Alona Beach, Anda\'s hidden shores, and more pristine coastal destinations.',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '10 min read',
       category: 'Beaches'
     },
@@ -47,7 +47,7 @@ const TravelGuides: React.FC = () => {
       id: 'food-guide',
       title: 'Find out what\'s so special about Bohol cuisine and local delicacies',
       excerpt: 'Explore the unique flavors, traditional dishes, and must-try restaurants across the island.',
-      image: 'https://images.unsplash.com/photo-1520637736862-4d197d17c2a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+      image: 'https://images.unsplash.com/photo-1520637736862-4d197d17c2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       readTime: '7 min read',
       category: 'Food'
     }

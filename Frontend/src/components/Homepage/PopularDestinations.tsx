@@ -6,7 +6,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'chocolate-hills',
       name: 'Chocolate Hills',
-      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1544986581-efac024faf62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'Over 1,268 cone-shaped hills that turn chocolate brown during dry season',
       attractions: '1,268 Hills',
       location: 'Carmen, Bohol'
@@ -14,7 +14,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'panglao',
       name: 'Panglao Island',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'Beautiful beaches, luxury resorts, and world-class diving spots',
       attractions: '15+ Beaches',
       location: 'Panglao, Bohol'
@@ -22,7 +22,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'tarsier-sanctuary',
       name: 'Tarsier Sanctuary',
-      image: 'https://images.unsplash.com/photo-1558618644-fbd1e7647dad?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1558618644-fbd1e7647dad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'Home to the world\'s smallest primates in their natural habitat',
       attractions: 'Wildlife Conservation',
       location: 'Corella, Bohol'
@@ -30,7 +30,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'loboc-river',
       name: 'Loboc River',
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'Scenic river cruise with traditional Filipino lunch and entertainment',
       attractions: 'River Cruise',
       location: 'Loboc, Bohol'
@@ -38,7 +38,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'anda-beaches',
       name: 'Anda Beaches',
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'Hidden paradise with pristine white sand beaches and clear waters',
       attractions: 'Hidden Beaches',
       location: 'Anda, Bohol'
@@ -46,7 +46,7 @@ const PopularDestinations: React.FC = () => {
     {
       id: 'baclayon-church',
       name: 'Baclayon Church',
-      image: 'https://images.unsplash.com/photo-1520637836862-4d197d17c2a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1520637836862-4d197d17c2a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
       description: 'One of the oldest churches in the Philippines, built in 1596',
       attractions: 'Historical Site',
       location: 'Baclayon, Bohol'
