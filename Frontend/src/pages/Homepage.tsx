@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 // Components
 import HeroSection from '../components/Homepage/HeroSection';
-import SearchWidget from '../components/Homepage/SearchWidget';
 import FeaturedTours from '../components/Homepage/FeaturedTours';
 import PopularDestinations from '../components/Homepage/PopularDestinations';
 import TravelGuides from '../components/Homepage/TravelGuides';
@@ -17,9 +16,6 @@ const Homepage: React.FC = () => {
     <div className="homepage">
       {/* Hero Section with Search */}
       <HeroSection />
-      
-      {/* Main Search Widget */}
-      <SearchWidget />
       
       {/* Key Features Section */}
       <section className="py-16 bg-gray-50">
