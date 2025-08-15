@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import toast from 'react-hot-toast';
 import { AuthContext } from '../../context/AuthContext';
 
 const Login: React.FC = () => {
@@ -30,9 +31,12 @@ const Login: React.FC = () => {
 
     try {
       await login(formData.email, formData.password);
+      toast.success('Welcome back! Login successful.');
       navigate(from, { replace: true });
     } catch (err: any) {
-      setError(err.message || 'Login failed. Please check your credentials.');
+      const errorMessage = err.message || 'Login failed. Please check your credentials.';
+      setError(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setLoading(false);
     }

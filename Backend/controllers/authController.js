@@ -49,7 +49,7 @@ const register = async (req, res) => {
     res.status(201).json({
       success: true,
       message: 'User registered successfully',
-      data: {
+      user: {
         _id: user._id,
         name: user.name,
         email: user.email,
@@ -115,7 +115,7 @@ const login = async (req, res) => {
     res.json({
       success: true,
       message: 'Login successful',
-      data: {
+      user: {
         _id: user._id,
         name: user.name,
         email: user.email,
@@ -143,7 +143,7 @@ const getProfile = async (req, res) => {
 
     res.json({
       success: true,
-      data: user
+      user: user
     });
   } catch (error) {
     console.error('Profile fetch error:', error);
@@ -170,7 +170,7 @@ const updateProfile = async (req, res) => {
     res.json({
       success: true,
       message: 'Profile updated successfully',
-      data: user
+      user: user
     });
   } catch (error) {
     console.error('Profile update error:', error);

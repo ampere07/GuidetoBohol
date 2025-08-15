@@ -1,17 +1,8 @@
 import React, { createContext, useContext, useReducer, useEffect, ReactNode } from 'react';
+import { authService } from '../services/authService';
+import { User } from '../types';
 
 // Types
-export interface User {
-  _id: string;
-  name: string;
-  email: string;
-  role: 'user' | 'admin' | 'partner';
-  avatar?: string;
-  phone?: string;
-  bookings: string[];
-  createdAt: string;
-}
-
 export interface AuthState {
   user: User | null;
   token: string | null;
@@ -115,18 +106,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       dispatch({ type: 'AUTH_START' });
       
-      const response = await fetch('/api/auth/profile', {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json',
-        },
-      });
-
-      if (response.ok) {
-        const userData = await response.json();
+      // Set the token in localStorage so authService can use it
+      localStorage.setItem('token', token);
+      
+      const response = await authService.getProfile();
+      
+      if (response.success) {
         dispatch({
           type: 'AUTH_SUCCESS',
-          payload: { user: userData.user, token },
+          payload: { user: response.user, token },
         });
       } else {
         localStorage.removeItem('token');
@@ -143,29 +131,21 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       dispatch({ type: 'AUTH_START' });
 
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, password }),
-      });
+      const response = await authService.login({ email, password });
 
-      const data = await response.json();
-
-      if (response.ok) {
-        localStorage.setItem('token', data.token);
+      if (response.success) {
+        localStorage.setItem('token', response.token);
         dispatch({
           type: 'AUTH_SUCCESS',
-          payload: { user: data.user, token: data.token },
+          payload: { user: response.user, token: response.token },
         });
       } else {
         dispatch({ type: 'AUTH_FAILURE' });
-        throw new Error(data.message || 'Login failed');
+        throw new Error(response.message || 'Login failed');
       }
-    } catch (error) {
+    } catch (error: any) {
       dispatch({ type: 'AUTH_FAILURE' });
-      throw error;
+      throw new Error(error.response?.data?.message || error.message || 'Login failed');
     }
   };
 
@@ -173,29 +153,21 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       dispatch({ type: 'AUTH_START' });
 
-      const response = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userData),
-      });
+      const response = await authService.register(userData);
 
-      const data = await response.json();
-
-      if (response.ok) {
-        localStorage.setItem('token', data.token);
+      if (response.success) {
+        localStorage.setItem('token', response.token);
         dispatch({
           type: 'AUTH_SUCCESS',
-          payload: { user: data.user, token: data.token },
+          payload: { user: response.user, token: response.token },
         });
       } else {
         dispatch({ type: 'AUTH_FAILURE' });
-        throw new Error(data.message || 'Registration failed');
+        throw new Error(response.message || 'Registration failed');
       }
-    } catch (error) {
+    } catch (error: any) {
       dispatch({ type: 'AUTH_FAILURE' });
-      throw error;
+      throw new Error(error.response?.data?.message || error.message || 'Registration failed');
     }
   };
 
@@ -206,24 +178,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const updateProfile = async (userData: Partial<User>): Promise<void> => {
     try {
-      const response = await fetch('/api/auth/profile', {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${state.token}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userData),
-      });
+      const response = await authService.updateProfile(userData);
 
-      const data = await response.json();
-
-      if (response.ok) {
-        dispatch({ type: 'UPDATE_USER', payload: data.user });
+      if (response.success) {
+        dispatch({ type: 'UPDATE_USER', payload: response.user });
       } else {
-        throw new Error(data.message || 'Profile update failed');
+        throw new Error(response.message || 'Profile update failed');
       }
-    } catch (error) {
-      throw error;
+    } catch (error: any) {
+      throw new Error(error.response?.data?.message || error.message || 'Profile update failed');
     }
   };
 

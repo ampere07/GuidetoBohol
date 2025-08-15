@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast';
 import { AuthContext } from '../../context/AuthContext';
 
 const Register: React.FC = () => {
@@ -57,9 +58,12 @@ const Register: React.FC = () => {
         password: formData.password,
         phone: formData.phone,
       });
+      toast.success('Account created successfully! Welcome to Guide to Bohol.');
       navigate('/dashboard');
     } catch (err: any) {
-      setError(err.message || 'Registration failed. Please try again.');
+      const errorMessage = err.message || 'Registration failed. Please try again.';
+      setError(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setLoading(false);
     }
