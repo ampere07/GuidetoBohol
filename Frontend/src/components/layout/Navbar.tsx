@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="flex items-center space-x-2">
             <MapPin className="h-8 w-8 text-primary-500" />
             <span className="text-xl font-bold text-gray-900">
-              Guide to Bohol
+              Guide to Bohol and Beyond
             </span>
           </Link>
 

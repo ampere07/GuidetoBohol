@@ -9,7 +9,6 @@ import TravelGuides from '../components/Homepage/TravelGuides';
 import WhyChooseUs from '../components/Homepage/WhyChooseUs';
 import CustomerTestimonials from '../components/Homepage/CustomerTestimonials';
 import Newsletter from '../components/Homepage/Newsletter';
-import MobileApp from '../components/Homepage/MobileApp';
 
 const Homepage: React.FC = () => {
   return (
@@ -76,9 +75,6 @@ const Homepage: React.FC = () => {
       
       {/* Customer Testimonials */}
       <CustomerTestimonials />
-      
-      {/* Mobile App Section */}
-      <MobileApp />
       
       {/* Newsletter Signup */}
       <Newsletter />

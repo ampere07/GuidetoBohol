@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">Guide to Bohol</h1>
-              <p className="text-xs text-gray-500">Travel Agency & Booking</p>
+              <p className="text-xs text-gray-500">and Beyond</p>
             </div>
           </Link>
 
