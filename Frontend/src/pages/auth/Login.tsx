@@ -51,7 +51,7 @@ const Login: React.FC = () => {
               B
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Guide to Bohol</h1>
+              <h1 className="text-xl font-bold text-gray-900">Guide to Bohol and Beyond</h1>
             </div>
           </Link>
         </div>

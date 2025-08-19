@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            About Guide to Bohol
+            About Guide to Bohol and Beyond
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl">
             We're passionate about making your Bohol experience unforgettable.
@@ -20,7 +20,7 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Guide to Bohol was founded with a simple mission: to make exploring 
+                Guide to Bohol and Beyond was founded with a simple mission: to make exploring 
                 the beautiful island of Bohol easier and more accessible for everyone. 
                 As locals who are passionate about our island, we understand what makes 
                 Bohol special and want to share that with the world.

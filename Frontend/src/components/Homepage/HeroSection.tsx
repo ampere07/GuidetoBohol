@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Guide to Bohol: Everything You Need to Know
+            Guide to Bohol and Beyond: Everything You Need to Know
           </h1>
           
           {/* Subheading */}

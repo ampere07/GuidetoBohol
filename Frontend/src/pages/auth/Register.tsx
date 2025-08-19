@@ -58,7 +58,7 @@ const Register: React.FC = () => {
         password: formData.password,
         phone: formData.phone,
       });
-      toast.success('Account created successfully! Welcome to Guide to Bohol.');
+      toast.success('Account created successfully! Welcome to Guide to Bohol and Beyond.');
       navigate('/dashboard');
     } catch (err: any) {
       const errorMessage = err.message || 'Registration failed. Please try again.';
@@ -78,7 +78,7 @@ const Register: React.FC = () => {
               B
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Guide to Bohol</h1>
+              <h1 className="text-xl font-bold text-gray-900">Guide to Bohol and Beyond</h1>
             </div>
           </Link>
         </div>
