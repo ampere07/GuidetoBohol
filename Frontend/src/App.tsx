@@ -17,6 +17,11 @@ import HotelDetails from './pages/HotelDetails';
 import CarRentals from './pages/CarRentals';
 import Destinations from './pages/Destinations';
 import TravelGuides from './pages/TravelGuides';
+import BestTimeToVisit from './pages/travelguidecomponents/BestTimeToVisit';
+import TopAttractions from './pages/travelguidecomponents/TopAttractions';
+import SampleItineraries from './pages/travelguidecomponents/SampleItineraries';
+import FoodDiningGuide from './pages/travelguidecomponents/FoodDiningGuide';
+import TransportationGuide from './pages/travelguidecomponents/TransportationGuide';
 import BookingConfirmation from './pages/BookingConfirmation';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
@@ -45,6 +50,11 @@ function App(): JSX.Element {
                 <Route path="/car-rentals" element={<CarRentals />} />
                 <Route path="/destinations" element={<Destinations />} />
                 <Route path="/travel-guides" element={<TravelGuides />} />
+                <Route path="/travel-guides/best-time-to-visit" element={<BestTimeToVisit />} />
+                <Route path="/travel-guides/attractions" element={<TopAttractions />} />
+                <Route path="/travel-guides/itinerary" element={<SampleItineraries />} />
+                <Route path="/travel-guides/food" element={<FoodDiningGuide />} />
+                <Route path="/travel-guides/transportation" element={<TransportationGuide />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 
